@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: springboot-sample
-          image: <Your Docker Image>:<Your Image Tag>
+          image: zeruyang001/zerudockerhub:latest
           ports:
             - containerPort: 8080
 ---
